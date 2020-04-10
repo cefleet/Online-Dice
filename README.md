@@ -1,4 +1,4 @@
-* Online Dice
+# Online Dice
 
 Mobile friendly dice handler/roller for D&D or other applications.
 
