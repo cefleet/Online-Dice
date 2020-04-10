@@ -32,7 +32,7 @@ export default (s, n) => {
                 </div>
                 <div class='diceName'>${name}</div>
                 <button class= 'rollDiceButton'>Roll Dice</button>
-                <div class='currentRoll'></div>
+                <div class='currentRoll'> - </div>
                 <div class='historyHeader'><span>Dice History</span><span class='historyToggle'> v </span></div>
                 <div class="diceHistory" style='display:none'>
                 </div>

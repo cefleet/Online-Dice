@@ -37,7 +37,7 @@ const addStandard = () =>{
     diceList.push(dice(6,'D&D d6'))
     diceList.push(dice(8,'D&D d8'))
     diceList.push(dice(10,'D&D d10'))
-    diceList.push(dice(10,'D&D %'))
+    diceList.push(dice(10,'D&D precent(%)'))
     diceList.push(dice(12,'D&D d12'))
     diceList.push(dice(20,'D&D d20'))
 
