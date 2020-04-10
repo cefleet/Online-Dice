@@ -1,0 +1,94 @@
+#diceContainer {
+    display:flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+
+.diceHolder {
+    padding:10px;
+    border:1px solid #ccc;
+    background:#efefef;
+    border-radius: 2px;
+    min-width:120px;
+    margin:4px 4px 16px;
+}
+
+.currentRoll {
+    font-size:30px;
+    font-weight:bold;
+    color:#048524;
+    border-bottom:1px solid;
+    text-align:center;
+}
+
+#control {
+    padding:10px;
+    border:1px solid;
+}
+
+#error {
+    background: #ff7a7a;
+    border-radius: 3px;
+    padding:3px;
+}
+
+.diceHolder label{
+    display: block;
+    font-weight:bold;
+    text-align:center;
+    font-size:14px;
+}
+
+.rollDiceButton {
+    margin:2px;
+    padding:10px;
+    background-color: #048524;
+    border:1px solid #014111;
+    color:#fff;
+    font-weight:bold;
+    font-size:16px;
+    width:100%;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+.rollDiceButton:disabled {
+    background-color: #333;
+}
+
+.rolling {
+    color:orange;
+    padding:2px 8px;
+    background: #f03c05;
+    border-radius: 5px;
+}
+
+.remove {
+    padding:2px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    color:#fff;
+    cursor:pointer;
+    background:red;
+    border-radius:3px;
+}
+
+.diceHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.historyHeader {
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #333;
+    cursor:pointer;
+    padding:4px;
+
+}
+
+.historyToggle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}

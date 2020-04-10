@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dice</title>
+        <script type="module" src="./main.js"></script>
+        <link rel='stylesheet' href='./style.css'/>
+    </head>
+    <body>
+        <div id="control">
+            <select id='diceNumber'>
+                <option value='0'>--Select Sides--</option>
+                <option value='2'>Coin Flip</option>
+                <option value='3'>3 Sided</option>
+                <option value='4'>4 Sided</option>
+                <option value='6'>6 Sided</option>
+                <option value='8'>8 Sided</option>
+                <option value='10'>10 Sided</option>
+                <option value='12'>12 Sided</option>
+                <option value='20'>20 Sided</option>
+            </select>
+            <button id="addDice">Add Dice</button>
+            <button id='addStandard'>Create D & D standard set</button>
+            <div id='error' style='display:none'></div>
+        </div>
+        <div id="diceContainer"></div>
+    </body>
+</html>
